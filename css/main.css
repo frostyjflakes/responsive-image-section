@@ -21,11 +21,7 @@ html {
 }
 
 body {
-  padding: 1rem, 2rem;
-}
-
-h2 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 p {
@@ -40,7 +36,7 @@ a {
   text-decoration: none;
 }
 
-.img-flex {
+img {
   width: 320px;
 }
 
@@ -60,6 +56,10 @@ a {
     line-height: 1.4;
   }
 
+  img {
+    width: 400px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -69,6 +69,10 @@ a {
     line-height: 1.5;
   }
 
+  img {
+    width:
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -76,6 +80,10 @@ a {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  img {
+    width:
   }
 
 }
