@@ -26,6 +26,7 @@ body {
 
 p {
   margin-top: 0;
+  text-align: left;
 }
 
 a {
@@ -34,10 +35,13 @@ a {
   padding: 0.5em 0.75em;
   border-radius: 4px;
   text-decoration: none;
+  text-align: center;
+  display: inline-block;
 }
 
 img {
   width: 320px;
+  vertical-align: middle;
 }
 
 @media only screen and (min-width: 25em) {
@@ -84,6 +88,10 @@ img {
 
   img {
     width:
+  }
+
+  h1, strong, p {
+    max-width: 24rem;
   }
 
 }
