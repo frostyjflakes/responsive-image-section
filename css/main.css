@@ -24,6 +24,17 @@ body {
   margin: 0;
 }
 
+.img-flex {
+  width: 100%;
+  display: block;
+  padding-top: 1rem;
+}
+
+.text {
+  margin-left: .5rem;
+  margin-bottom: 1.5rem;
+}
+
 p {
   margin-top: 0;
   text-align: left;
@@ -32,15 +43,19 @@ p {
 a {
   color: #fff;
   background-color: #555;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
   text-decoration: none;
   text-align: center;
   display: inline-block;
 }
 
+a:hover {
+  background-color: #000;
+}
+
 img {
-  width: 320px;
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -56,12 +71,24 @@ img {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 100%;
+    font-size: 110%;
     line-height: 1.4;
   }
 
+  .text {
+    max-width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+  .img-flex {
+    max-width: 55%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
   img {
-    width: 400px;
+    width: 100%;
   }
 
 }
@@ -73,10 +100,6 @@ img {
     line-height: 1.5;
   }
 
-  img {
-    width:
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -86,12 +109,14 @@ img {
     line-height: 1.5;
   }
 
-  img {
-    width:
+  .text {
+    width: 30%;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
   }
 
-  h1, strong, p {
-    max-width: 24rem;
+  .img-flex {
+    width: 40%;
   }
 
 }
